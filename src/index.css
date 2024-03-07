@@ -1,0 +1,56 @@
+#listMovie{
+  gap: 1em;
+}
+
+.movieDetails{
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+  gap: 1em;
+}
+
+.movie-item{
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: ce;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Title: 'Avengers Assemble', Year: '2012–2019', imdbID: 'tt2455546', Type: 'series', Poster: 'https://m.media-amazon.com/images/M/MV5BMTY0NTUyMDQwOV5BMl5BanBnXkFtZTgwNjAwMTA0MDE@._V1_SX300.jpg'}
+Poster
+: 
+"https://m.media-amazon.com/images/M/MV5BMTY0NTUyMDQwOV5BMl5BanBnXkFtZTgwNjAwMTA0MDE@._V1_SX300.jpg"
+Title
+: 
+"Avengers Assemble"
+Type
+: 
+"series"
+Year
+: 
+"2012–2019"
+imdbID
+: 
+"tt2455546" */
